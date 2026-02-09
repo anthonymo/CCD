@@ -3,30 +3,30 @@ A front end–only 3D drone mission planning application built with CesiumJS, Re
 This project demonstrates real-world geospatial workflows including polygon drawing for no fly zone, mission planning, and airspace safety validation.
 
 ________________________________________
-🌐 **Live Demo**  
-🔗 https://lae-psi.vercel.app/  
+🌐 **Live Demo**
+🔗 https://lae-psi.vercel.app/
 
 This is the deployed version of the 3D Drone Mission Planner.
 ________________________________________
-✅ **FULL NARRATIVE**  
+✅ **FULL NARRATIVE**
 
-📘 **Project Narrative**  
+📘 **Project Narrative**
 This project is a 3D Drone Mission Planner built with CesiumJS, React, Vite, and Zustand. It allows operators to draw airspace zones, create waypoint‑based missions, and validate routes against No‑Flight Zones (NFZs). The goal is to demonstrate practical CesiumJS expertise through a real-world geospatial workflow.
 
-**Why I Built This**  
+**Why I Built This**
 This application is part of a larger vision to build a full SaaS platform for drone safety, routing, and telemetry. The front‑end version serves as a prototype to refine domain models and demonstrate Cesium proficiency before migrating to a backend with Node.js  and PostGIS.
 
-**Steps Involved**  
-•	Designed a domain model for missions, waypoints, and airspace zones  
-•	Integrated CesiumJS into a modern React + Vite environment 
-•	Implemented interactive polygon drawing for NFZs and risk zones 
-•	Built waypoint creation and editing tools 
-•	Rendered mission routes using Cesium polylines 
-•	Implemented a validation engine to detect NFZ violations 
-•	Created UI panels for zones, missions, and validation results 
-•	Ensured clean separation between domain logic, Cesium rendering, and UI 
+**Steps Involved**
+•	Designed a domain model for missions, waypoints, and airspace zones
+•	Integrated CesiumJS into a modern React + Vite environment
+•	Implemented interactive polygon drawing for NFZs and risk zones
+•	Built waypoint creation and editing tools
+•	Rendered mission routes using Cesium polylines
+•	Implemented a validation engine to detect NFZ violations
+•	Created UI panels for zones, missions, and validation results
+•	Ensured clean separation between domain logic, Cesium rendering, and UI
 
-**Final Result** 
+**Final Result**
 A fully interactive 3D mission planner demonstrating Cesium entity management, geospatial validation, and operator‑friendly UI design. The application runs entirely in the browser and is suitable for Cesium Certified Developer evaluation.
 
 **Next Steps**
@@ -200,7 +200,7 @@ This screenshot shows the validation results panel alongside the globe. The syst
 
 ________________________________________
 🎥 **Video Demo**  
-https://www.youtube.com/watch?v=jMl8S-H4ybA
+https://www.youtube.com/watch?v=jMl8S-H4ybA  
 This video will show the full workflow including zone creation, mission planning, and validation.
 
 ________________________________________
