@@ -1,6 +1,7 @@
 3D Drone Mission Planner (CesiumJS + React + Vite) A front end–only 3D drone mission planning application built with CesiumJS, React, Vite, and Zustand. This project demonstrates real-world geospatial workflows including polygon drawing for no fly zone, mission planning, and airspace safety validation.
 
-🌐 Live Demo 🔗 https://lae-psi.vercel.app/
+🌐 Live Demo  
+🔗 https://lae-psi.vercel.app/
 
 This is the deployed version of the 3D Drone Mission Planner.
 
