@@ -10,30 +10,18 @@ This is the deployed version of the 3D Drone Mission Planner.
 ________________________________________
 ✅ **FULL NARRATIVE**
 
-📘 **Project Narrative**
-This project is a 3D Drone Mission Planner built with CesiumJS, React, Vite, and Zustand. It allows operators to draw airspace zones, create waypoint‑based missions, and validate routes against No‑Flight Zones (NFZs). The goal is to demonstrate practical CesiumJS expertise through a real-world geospatial workflow.
+📘 **Project Narrative**  
+This project is a 3D Drone Mission Planner built with CesiumJS, React, and Vite.
+The goal is to demonstrate real‑world geospatial workflows: defining airspace zones, planning missions, adjusting altitudes using terrain, and validating routes against No‑Fly Zones.
 
-**Why I Built This**
-This application is part of a larger vision to build a full SaaS platform for drone safety, routing, and telemetry. The front‑end version serves as a prototype to refine domain models and demonstrate Cesium proficiency before migrating to a backend with Node.js  and PostGIS.
+I implemented interactive polygon drawing for No‑Fly Zones, including naming, altitude modes (below/above/between), and vertical constraints.
+Mission planning supports waypoint creation, dynamic polyline rendering, and Auto‑AGL mode, which samples terrain to maintain consistent height above ground.
 
-**Steps Involved**
-•	Designed a domain model for missions, waypoints, and airspace zones
-•	Integrated CesiumJS into a modern React + Vite environment
-•	Implemented interactive polygon drawing for NFZs and risk zones
-•	Built waypoint creation and editing tools
-•	Rendered mission routes using Cesium polylines
-•	Implemented a validation engine to detect NFZ violations
-•	Created UI panels for zones, missions, and validation results
-•	Ensured clean separation between domain logic, Cesium rendering, and UI
+The validation engine checks each waypoint and route segment for violations and highlights issues in red on the globe.
+All logic runs entirely in the browser with clean separation between domain logic, Cesium rendering, and UI components.
 
-**Final Result**
-A fully interactive 3D mission planner demonstrating Cesium entity management, geospatial validation, and operator‑friendly UI design. The application runs entirely in the browser and is suitable for Cesium Certified Developer evaluation.
-
-**Next Steps**
-•	Add automatic routing (A*)
-•	Add building footprints and altitude‑aware routing
-•	Add telemetry visualization
-•	Migrate domain logic to a multi‑tenant backend
+The final result is a functional, browser‑based mission planner demonstrating practical CesiumJS expertise.
+Future work includes cloud‑based storage, multi‑tenant support, and inspection workflows.
 
 ________________________________________
 ✅ **ARCHITECTURE DOCUMENTATION**  
